@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B27FD7FB1E227E3200C1273C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD7FA1E227E3200C1273C /* AppDelegate.swift */; };
+		B27FD7FD1E227E3200C1273C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD7FC1E227E3200C1273C /* ViewController.swift */; };
+		B27FD8001E227E3200C1273C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27FD7FE1E227E3200C1273C /* Main.storyboard */; };
+		B27FD8021E227E3200C1273C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27FD8011E227E3200C1273C /* Assets.xcassets */; };
+		B27FD8051E227E3200C1273C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27FD8031E227E3200C1273C /* LaunchScreen.storyboard */; };
+		B27FD8101E227E3300C1273C /* AVAudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD80F1E227E3300C1273C /* AVAudioAppTests.swift */; };
+		B27FD81B1E227E3300C1273C /* AVAudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD81A1E227E3300C1273C /* AVAudioAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27FD80C1E227E3300C1273C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27FD7EF1E227E3100C1273C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27FD7F61E227E3100C1273C;
+			remoteInfo = AVAudioApp;
+		};
+		B27FD8171E227E3300C1273C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27FD7EF1E227E3100C1273C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27FD7F61E227E3100C1273C;
+			remoteInfo = AVAudioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B27FD7F71E227E3200C1273C /* AVAudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27FD7FA1E227E3200C1273C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B27FD7FC1E227E3200C1273C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B27FD7FF1E227E3200C1273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B27FD8011E227E3200C1273C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27FD8041E227E3200C1273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B27FD8061E227E3200C1273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27FD80B1E227E3300C1273C /* AVAudioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27FD80F1E227E3300C1273C /* AVAudioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioAppTests.swift; sourceTree = "<group>"; };
+		B27FD8111E227E3300C1273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27FD8161E227E3300C1273C /* AVAudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27FD81A1E227E3300C1273C /* AVAudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioAppUITests.swift; sourceTree = "<group>"; };
+		B27FD81C1E227E3300C1273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27FD7F41E227E3100C1273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27FD8081E227E3300C1273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27FD8131E227E3300C1273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27FD7EE1E227E3100C1273C = {
+			isa = PBXGroup;
+			children = (
+				B27FD7F91E227E3200C1273C /* AVAudioApp */,
+				B27FD80E1E227E3300C1273C /* AVAudioAppTests */,
+				B27FD8191E227E3300C1273C /* AVAudioAppUITests */,
+				B27FD7F81E227E3200C1273C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27FD7F81E227E3200C1273C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27FD7F71E227E3200C1273C /* AVAudioApp.app */,
+				B27FD80B1E227E3300C1273C /* AVAudioAppTests.xctest */,
+				B27FD8161E227E3300C1273C /* AVAudioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27FD7F91E227E3200C1273C /* AVAudioApp */ = {
+			isa = PBXGroup;
+			children = (
+				B27FD7FA1E227E3200C1273C /* AppDelegate.swift */,
+				B27FD7FC1E227E3200C1273C /* ViewController.swift */,
+				B27FD7FE1E227E3200C1273C /* Main.storyboard */,
+				B27FD8011E227E3200C1273C /* Assets.xcassets */,
+				B27FD8031E227E3200C1273C /* LaunchScreen.storyboard */,
+				B27FD8061E227E3200C1273C /* Info.plist */,
+			);
+			path = AVAudioApp;
+			sourceTree = "<group>";
+		};
+		B27FD80E1E227E3300C1273C /* AVAudioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B27FD80F1E227E3300C1273C /* AVAudioAppTests.swift */,
+				B27FD8111E227E3300C1273C /* Info.plist */,
+			);
+			path = AVAudioAppTests;
+			sourceTree = "<group>";
+		};
+		B27FD8191E227E3300C1273C /* AVAudioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B27FD81A1E227E3300C1273C /* AVAudioAppUITests.swift */,
+				B27FD81C1E227E3300C1273C /* Info.plist */,
+			);
+			path = AVAudioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27FD7F61E227E3100C1273C /* AVAudioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27FD81F1E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioApp" */;
+			buildPhases = (
+				B27FD7F31E227E3100C1273C /* Sources */,
+				B27FD7F41E227E3100C1273C /* Frameworks */,
+				B27FD7F51E227E3100C1273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAudioApp;
+			productName = AVAudioApp;
+			productReference = B27FD7F71E227E3200C1273C /* AVAudioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27FD80A1E227E3300C1273C /* AVAudioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27FD8221E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioAppTests" */;
+			buildPhases = (
+				B27FD8071E227E3300C1273C /* Sources */,
+				B27FD8081E227E3300C1273C /* Frameworks */,
+				B27FD8091E227E3300C1273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27FD80D1E227E3300C1273C /* PBXTargetDependency */,
+			);
+			name = AVAudioAppTests;
+			productName = AVAudioAppTests;
+			productReference = B27FD80B1E227E3300C1273C /* AVAudioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B27FD8151E227E3300C1273C /* AVAudioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27FD8251E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioAppUITests" */;
+			buildPhases = (
+				B27FD8121E227E3300C1273C /* Sources */,
+				B27FD8131E227E3300C1273C /* Frameworks */,
+				B27FD8141E227E3300C1273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27FD8181E227E3300C1273C /* PBXTargetDependency */,
+			);
+			name = AVAudioAppUITests;
+			productName = AVAudioAppUITests;
+			productReference = B27FD8161E227E3300C1273C /* AVAudioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27FD7EF1E227E3100C1273C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "yuki yamamoto";
+				TargetAttributes = {
+					B27FD7F61E227E3100C1273C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B27FD80A1E227E3300C1273C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B27FD7F61E227E3100C1273C;
+					};
+					B27FD8151E227E3300C1273C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B27FD7F61E227E3100C1273C;
+					};
+				};
+			};
+			buildConfigurationList = B27FD7F21E227E3100C1273C /* Build configuration list for PBXProject "AVAudioApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B27FD7EE1E227E3100C1273C;
+			productRefGroup = B27FD7F81E227E3200C1273C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27FD7F61E227E3100C1273C /* AVAudioApp */,
+				B27FD80A1E227E3300C1273C /* AVAudioAppTests */,
+				B27FD8151E227E3300C1273C /* AVAudioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27FD7F51E227E3100C1273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27FD8051E227E3200C1273C /* LaunchScreen.storyboard in Resources */,
+				B27FD8021E227E3200C1273C /* Assets.xcassets in Resources */,
+				B27FD8001E227E3200C1273C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27FD8091E227E3300C1273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27FD8141E227E3300C1273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27FD7F31E227E3100C1273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27FD7FD1E227E3200C1273C /* ViewController.swift in Sources */,
+				B27FD7FB1E227E3200C1273C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27FD8071E227E3300C1273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27FD8101E227E3300C1273C /* AVAudioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27FD8121E227E3300C1273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27FD81B1E227E3300C1273C /* AVAudioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27FD80D1E227E3300C1273C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27FD7F61E227E3100C1273C /* AVAudioApp */;
+			targetProxy = B27FD80C1E227E3300C1273C /* PBXContainerItemProxy */;
+		};
+		B27FD8181E227E3300C1273C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27FD7F61E227E3100C1273C /* AVAudioApp */;
+			targetProxy = B27FD8171E227E3300C1273C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B27FD7FE1E227E3200C1273C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27FD7FF1E227E3200C1273C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27FD8031E227E3200C1273C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27FD8041E227E3200C1273C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27FD81D1E227E3300C1273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27FD81E1E227E3300C1273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27FD8201E227E3300C1273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVAudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B27FD8211E227E3300C1273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVAudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B27FD8231E227E3300C1273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVAudioAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVAudioApp.app/AVAudioApp";
+			};
+			name = Debug;
+		};
+		B27FD8241E227E3300C1273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVAudioAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVAudioApp.app/AVAudioApp";
+			};
+			name = Release;
+		};
+		B27FD8261E227E3300C1273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AVAudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AVAudioApp;
+			};
+			name = Debug;
+		};
+		B27FD8271E227E3300C1273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AVAudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AVAudioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27FD7F21E227E3100C1273C /* Build configuration list for PBXProject "AVAudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27FD81D1E227E3300C1273C /* Debug */,
+				B27FD81E1E227E3300C1273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27FD81F1E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27FD8201E227E3300C1273C /* Debug */,
+				B27FD8211E227E3300C1273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27FD8221E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27FD8231E227E3300C1273C /* Debug */,
+				B27FD8241E227E3300C1273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27FD8251E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27FD8261E227E3300C1273C /* Debug */,
+				B27FD8271E227E3300C1273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27FD7EF1E227E3100C1273C /* Project object */;
+}
