@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B215CBE31E27D4250093CA5F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215CBE21E27D4250093CA5F /* MessageUI.framework */; };
 		B27FD7FB1E227E3200C1273C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD7FA1E227E3200C1273C /* AppDelegate.swift */; };
 		B27FD7FD1E227E3200C1273C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD7FC1E227E3200C1273C /* ViewController.swift */; };
 		B27FD8001E227E3200C1273C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27FD7FE1E227E3200C1273C /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		B27FD8051E227E3200C1273C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27FD8031E227E3200C1273C /* LaunchScreen.storyboard */; };
 		B27FD8101E227E3300C1273C /* AVAudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD80F1E227E3300C1273C /* AVAudioAppTests.swift */; };
 		B27FD81B1E227E3300C1273C /* AVAudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD81A1E227E3300C1273C /* AVAudioAppUITests.swift */; };
+		B27FD8291E2289ED00C1273C /* ken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B27FD8281E2289ED00C1273C /* ken.mp3 */; };
+		B2EEAE7D1E23620200C7D9EC /* もう三日.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EEAE7B1E23620200C7D9EC /* もう三日.mp3 */; };
+		B2EEAE831E23B51100C7D9EC /* なんか音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EEAE811E23B51100C7D9EC /* なんか音.mp3 */; };
+		B2EEAE841E23B51100C7D9EC /* 気のせいだよ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EEAE821E23B51100C7D9EC /* 気のせいだよ.mp3 */; };
+		B2EEAE861E23BD7200C7D9EC /* びしばし教える.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EEAE851E23BD7200C7D9EC /* びしばし教える.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B215CBE21E27D4250093CA5F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B27FD7F71E227E3200C1273C /* AVAudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27FD7FA1E227E3200C1273C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27FD7FC1E227E3200C1273C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		B27FD8161E227E3300C1273C /* AVAudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27FD81A1E227E3300C1273C /* AVAudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioAppUITests.swift; sourceTree = "<group>"; };
 		B27FD81C1E227E3300C1273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27FD8281E2289ED00C1273C /* ken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ken.mp3; sourceTree = "<group>"; };
+		B2EEAE7B1E23620200C7D9EC /* もう三日.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "もう三日.mp3"; sourceTree = "<group>"; };
+		B2EEAE811E23B51100C7D9EC /* なんか音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "なんか音.mp3"; sourceTree = "<group>"; };
+		B2EEAE821E23B51100C7D9EC /* 気のせいだよ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "気のせいだよ.mp3"; sourceTree = "<group>"; };
+		B2EEAE851E23BD7200C7D9EC /* びしばし教える.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "びしばし教える.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B215CBE31E27D4250093CA5F /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B215CBE11E27D4250093CA5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B215CBE21E27D4250093CA5F /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B27FD7EE1E227E3100C1273C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,7 @@
 				B27FD80E1E227E3300C1273C /* AVAudioAppTests */,
 				B27FD8191E227E3300C1273C /* AVAudioAppUITests */,
 				B27FD7F81E227E3200C1273C /* Products */,
+				B215CBE11E27D4250093CA5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +125,7 @@
 				B27FD8011E227E3200C1273C /* Assets.xcassets */,
 				B27FD8031E227E3200C1273C /* LaunchScreen.storyboard */,
 				B27FD8061E227E3200C1273C /* Info.plist */,
+				B2EEAE3C1E22956700C7D9EC /* Audiooooo */,
 			);
 			path = AVAudioApp;
 			sourceTree = "<group>";
@@ -123,6 +146,18 @@
 				B27FD81C1E227E3300C1273C /* Info.plist */,
 			);
 			path = AVAudioAppUITests;
+			sourceTree = "<group>";
+		};
+		B2EEAE3C1E22956700C7D9EC /* Audiooooo */ = {
+			isa = PBXGroup;
+			children = (
+				B27FD8281E2289ED00C1273C /* ken.mp3 */,
+				B2EEAE7B1E23620200C7D9EC /* もう三日.mp3 */,
+				B2EEAE811E23B51100C7D9EC /* なんか音.mp3 */,
+				B2EEAE851E23BD7200C7D9EC /* びしばし教える.mp3 */,
+				B2EEAE821E23B51100C7D9EC /* 気のせいだよ.mp3 */,
+			);
+			name = Audiooooo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +228,7 @@
 				TargetAttributes = {
 					B27FD7F61E227E3100C1273C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z6DHS4H2AN;
 						ProvisioningStyle = Automatic;
 					};
 					B27FD80A1E227E3300C1273C = {
@@ -232,9 +268,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EEAE861E23BD7200C7D9EC /* びしばし教える.mp3 in Resources */,
 				B27FD8051E227E3200C1273C /* LaunchScreen.storyboard in Resources */,
+				B2EEAE831E23B51100C7D9EC /* なんか音.mp3 in Resources */,
 				B27FD8021E227E3200C1273C /* Assets.xcassets in Resources */,
+				B2EEAE7D1E23620200C7D9EC /* もう三日.mp3 in Resources */,
 				B27FD8001E227E3200C1273C /* Main.storyboard in Resources */,
+				B2EEAE841E23B51100C7D9EC /* 気のせいだよ.mp3 in Resources */,
+				B27FD8291E2289ED00C1273C /* ken.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6DHS4H2AN;
 				INFOPLIST_FILE = AVAudioApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6DHS4H2AN;
 				INFOPLIST_FILE = AVAudioApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +550,7 @@
 				B27FD8211E227E3300C1273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27FD8221E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +559,7 @@
 				B27FD8241E227E3300C1273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27FD8251E227E3300C1273C /* Build configuration list for PBXNativeTarget "AVAudioAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +568,7 @@
 				B27FD8271E227E3300C1273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
