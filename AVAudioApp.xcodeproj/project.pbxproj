@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B215CBE31E27D4250093CA5F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215CBE21E27D4250093CA5F /* MessageUI.framework */; };
 		B27FD7FB1E227E3200C1273C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD7FA1E227E3200C1273C /* AppDelegate.swift */; };
 		B27FD7FD1E227E3200C1273C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FD7FC1E227E3200C1273C /* ViewController.swift */; };
 		B27FD8001E227E3200C1273C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27FD7FE1E227E3200C1273C /* Main.storyboard */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B215CBE21E27D4250093CA5F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B27FD7F71E227E3200C1273C /* AVAudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27FD7FA1E227E3200C1273C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27FD7FC1E227E3200C1273C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B215CBE31E27D4250093CA5F /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +87,6 @@
 		B215CBE11E27D4250093CA5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B215CBE21E27D4250093CA5F /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -453,12 +449,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = Z6DHS4H2AN;
 				INFOPLIST_FILE = AVAudioApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = CheckMarkHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -467,12 +465,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = Z6DHS4H2AN;
 				INFOPLIST_FILE = AVAudioApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.AVAudioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = CheckMarkHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
