@@ -224,7 +224,7 @@
 				TargetAttributes = {
 					B27FD7F61E227E3100C1273C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Z6DHS4H2AN;
+						DevelopmentTeam = PC8S7S8QW6;
 						ProvisioningStyle = Automatic;
 					};
 					B27FD80A1E227E3300C1273C = {
@@ -449,8 +449,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				DEVELOPMENT_TEAM = Z6DHS4H2AN;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PC8S7S8QW6;
 				INFOPLIST_FILE = AVAudioApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -465,8 +465,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				DEVELOPMENT_TEAM = Z6DHS4H2AN;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PC8S7S8QW6;
 				INFOPLIST_FILE = AVAudioApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

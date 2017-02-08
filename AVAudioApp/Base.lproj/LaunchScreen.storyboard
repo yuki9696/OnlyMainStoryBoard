@@ -21,17 +21,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchimagea" translatesAutoresizingMaskIntoConstraints="NO" id="HGY-N3-Ac2">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1q-JG-kDg">
+                                <rect key="frame" x="143" y="251" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.54117647058823526" green="0.69019607843137254" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="HGY-N3-Ac2" secondAttribute="trailing" id="fE8-VE-oYa"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="HGY-N3-Ac2" secondAttribute="bottom" id="m2H-UY-ScU"/>
-                            <constraint firstItem="HGY-N3-Ac2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="neC-i1-wBm"/>
-                            <constraint firstItem="HGY-N3-Ac2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="qKG-SC-Hnj"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -39,7 +37,4 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="launchimagea" width="640" height="1136"/>
-    </resources>
 </document>

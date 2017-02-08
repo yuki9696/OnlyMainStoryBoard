@@ -16,8 +16,6 @@ var player2:AVAudioPlayer!
 // ViewController子クラスの親クラスはUIViewController。（ViewはUIViewを継承している）
 class ViewController: UIViewController, MFMailComposeViewControllerDelegate, AVAudioPlayerDelegate{
     
-
-    
     //override ＝ 親クラスで宣言されているプロパティやメソッドを上書きする
     //viewDidLoadメソッドはViewControllerの親クラスであるUIViewControllerにも定義されており、ここではそれを上書きしている。
     
@@ -218,5 +216,33 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate, AVA
     }
     
     
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
